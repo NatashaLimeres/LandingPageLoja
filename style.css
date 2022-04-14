@@ -60,21 +60,28 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 80px;
+  padding-bottom: 20px;
 }
 
 #butterfly {
   width: 200px;
-  border: 1px solid #3d3d3d;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
 }
 
 #lemon {
   width: 200px;
-  border: 1px solid #3d3d3d;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
 }
 
 #serpent {
   width: 200px;
-  border: 1px solid #3d3d3d;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
 }
 
 .social-fields {
