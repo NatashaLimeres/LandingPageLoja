@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  padding: 20px 20px 20px;
+  font-size: 45px;
+  color: #FCA3D4;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.8px solid #3d3d3d;
+}
+
+.menu {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  color: #3d3d3d;
+  border-bottom: 0.8px solid #3d3d3d;
+}
+
+main {
+  min-height: calc(100vh - 180.65px);
+}
+
+.banner {
+  padding: 20px;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+img {
+  width: 100%;
+}
+
+#delivery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  color:#3d3d3d;
+  padding: 10px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #3d3d3d;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+#butterfly {
+  width: 200px;
+  border: 1px solid #3d3d3d;
+}
+
+#lemon {
+  width: 200px;
+  border: 1px solid #3d3d3d;
+}
+
+#serpent {
+  width: 200px;
+  border: 1px solid #3d3d3d;
+}
+
+.social-fields {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#instagram {
+  color: #FCA3D4;
+}
+
+#facebook {
+  color: #FCA3D4; 
+}
+
+#whats-app {
+  color: #FCA3D4;   
+}
+
+footer {
+  padding: 50px;
+  border-top: 0.8px solid #3d3d3d;
+}
+
