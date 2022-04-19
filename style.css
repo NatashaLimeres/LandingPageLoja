@@ -56,6 +56,27 @@ h2 {
   color: #3d3d3d;
 }
 
+#search {
+  margin-left: 553px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#input-search {
+  border-radius: 2px;
+  width: 200px;
+  background-color: #ffcfe9;
+  outline-color: #3d3d3d;
+}
+
+#search-icon {
+  position: absolute;
+  top: 7px;
+  left: 175px;
+  font-size: 14px;
+  color: #3d3d3d;
+}
+
 .products {
   display: flex;
   justify-content: center;
