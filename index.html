@@ -1,82 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crazy About Store</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/icon.jpeg">
-<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crazy About Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/icon.jpeg">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+  </script>
 </head>
 
-  <body>
-    <header>
-      <h1>Crazy About Store</h1>
-      <nav>
-        <ul class="menu">
-          <li>Ínicio</li>
-          <li>Produtos</li>
-          <li>Contato</li>
-          <li>Troca e Devolução</li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <div class="store-logo">
+      <img id="logo" src="assets/logo pink.jpeg" title="Logo Crazy About Store" alt="Logo Crazy About Store">
+    </div>
+    <nav>
+      <ul class="menu">
+        <li>Ínicio</li>
+        <li>Produtos</li>
+        <li>Contato</li>
+        <li>Troca e Devolução</li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <div class="banner">
-        <img src="assets/banner.img.gif" title="Banner de Frete Grátis" alt="Banner de Frete Grátis"> 
-      </div>
+  <main>
+    <div class="banner">
+      <img src="assets/banner.img.gif" title="Banner de Frete Grátis" alt="Banner de Frete Grátis">
+    </div>
+    <div class="container">
+      <i id="delivery-icon" class="fas fa-truck"></i>
       <div id="delivery">
-      <i class="fas fa-truck fa-2x"></i>
-      <div class="delivery">
-        <h2>Enviamos para todo o Brasil</h2>
+        <h1>Melhor Envio</h1>
+        <h2>Frete Rápido</h2>
       </div>
+      <i id="home-icon" class="fas fa-home"></i>
+      <div id="home">
+        <h1>Receba em Casa</h1>
+        <h2>Para todo o Brasil</h2>
       </div>
-  <div id="search">  
+      <i id ="credit-icon"class="fas fa-credit-card"></i>
+      <div id="credit">
+        <h1>Em até 5x sem juros</h1>
+        <h2>No cartão de crédito</h2>
+      </div>
+    </div>
+    <div id="search">
       <input id="input-search" type="text" placeholder="Buscar">
-      <i id="search-icon" class="fas fa-search"></i> 
-    </div>    
-  <div class="products">
-    <div id="butterfly">
-      <img src="assets/butterfly.jpeg" title="Foto da blusa de borboletas" alt="Blusa de Borboletas">
-      <p>T-Shirt Butterfly</p>
-      <p>R$69,90</p>
+      <i id="search-icon" class="fas fa-search"></i>
     </div>
-    <div id="lemon">
-      <img src="assets/lemon.jpeg" title="Foto da blusa de limão" alt="Blusa de limão">
-      <p>T-Shirt Lemon</p>
-      <p>R$69,90</p>
+    <div class="products">
+      <div id="butterfly">
+        <img src="assets/butterfly.jpeg" title="Foto da blusa de borboletas" alt="Blusa de Borboletas">
+        <p>T-Shirt Butterfly</p>
+        <p>R$69,90</p>
+      </div>
+      <div id="lemon">
+        <img src="assets/lemon.jpeg" title="Foto da blusa de limão" alt="Blusa de limão">
+        <p>T-Shirt Lemon</p>
+        <p>R$69,90</p>
+      </div>
+      <div id="serpent">
+        <img src="assets/serpent.jpeg" title="Foto da blusa de serpente" alt="Blusa de serpente">
+        <p>T-Shirt Serpent</p>
+        <p>R$65,90</p>
+      </div>
     </div>
-    <div id="serpent">
-      <img src="assets/serpent.jpeg" title="Foto da blusa de serpente" alt="Blusa de serpente">
-      <p>T-Shirt Serpent</p>
-      <p>R$65,90</p>
-    </div>
-  </div>
-    </main>
+  </main>
 
-    <footer>
-  <div class="social-fields">
-        <div class="instagram">
-      <a href="https://www.instagram.com/crazyaboutstore/">
-        <i id="instagram" class="fab fa-instagram fa-2x"></i>
-      </a>
-        </div>
-        <div class="facebook">
-      <a href="https://m.facebook.com/crazyaboutstore/">
-        <i id="facebook"class="fab fa-facebook fa-2x"></i>
-      </a>
-        </div>
-        <div class="whats-app">
-      <a href="#">
-        <i id="whats-app"class="fab fa-whatsapp fa-2x"></i>
-      </a>
-        </div>
-  </div>
-    </footer>
-  </body>
+  <footer>
+    <div class="social-fields">
+      <div class="instagram">
+        <a href="https://www.instagram.com/crazyaboutstore/">
+          <i id="instagram" class="fab fa-instagram fa-2x"></i>
+        </a>
+      </div>
+      <div class="facebook">
+        <a href="https://m.facebook.com/crazyaboutstore/">
+          <i id="facebook" class="fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+      <div class="whats-app">
+        <a href="#">
+          <i id="whats-app" class="fab fa-whatsapp fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
