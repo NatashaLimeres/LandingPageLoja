@@ -87,27 +87,55 @@ img {
   color: #3d3d3d;
 }
 
-.products {
+.products1 {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
-#butterfly {
+#monaco {
   width: 200px;
   border: 1px solid #787878;
   border-radius: 2px;
   padding: 10px;
 }
 
-#lemon {
+#conjunto-punta {
   width: 200px;
   border: 1px solid #787878;
   border-radius: 2px;
   padding: 10px;
 }
 
-#serpent {
+#cropped-ohio {
+  width: 200px;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.products2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+
+#nina {
+  width: 200px;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#viviane {
+  width: 200px;
+  border: 1px solid #787878;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#ariane {
   width: 200px;
   border: 1px solid #787878;
   border-radius: 2px;
