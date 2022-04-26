@@ -27,6 +27,7 @@
   color: #3d3d3d;
   border-bottom: 0.8px solid #3d3d3d;
   border-top: 0.8px solid #3d3d3d;
+  cursor: pointer;
 }
 
 main {
@@ -45,25 +46,24 @@ img {
 }
 
 .container {
-  font-size: 8px;
+  font-size: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  color: #3d3d3d;
+  color: #474747;
   padding-bottom: 15px;
 }
 
 #delivery-icon {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 #home-icon {
-  font-size: 25px;
+  font-size: 27px;
 }
 
 #credit-icon {
-  font-size: 23px;
+  font-size: 25px;
 }
 
 #search {
@@ -120,7 +120,6 @@ img {
   padding-bottom: 20px;
 }
 
-
 #nina {
   width: 200px;
   border: 1px solid #787878;
@@ -142,6 +141,42 @@ img {
   padding: 10px;
 }
 
+main p {
+  display: flex;
+  justify-content: center;
+  color: #3d3d3d;
+}
+
+input[type="submit"] {
+  width: 180px;
+  background: linear-gradient(to left, #f5daf0, #ffcfe9);
+  cursor: pointer;
+  color: #3d3d3d;
+  font-size: 0.9rem;
+  font-weight: 300;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  letter-spacing: 0.5px;
+  background: linear-gradient(to right, #f5daf0, #ffcfe9);
+}
+
+footer {
+  padding: 20px;
+  border-top: 0.8px solid #3d3d3d;
+}
+
+#social-fields-title {
+  color: #fca3d4;
+  display: flex;
+  justify-content: center;
+  font-family: Licorice;
+  font-size: 80px;
+}
+
 .social-fields {
   cursor: pointer;
   width: 100%;
@@ -151,18 +186,47 @@ img {
 }
 
 #instagram {
-  color: #fca3d4;
+  color: #e09bd7;
 }
 
 #facebook {
-  color: #fca3d4;
+  color: #e09bd7;
 }
 
 #whats-app {
-  color: #fca3d4;
+  color: #e09bd7;
 }
 
-footer {
-  padding: 50px;
-  border-top: 0.8px solid #3d3d3d;
+footer p {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #3d3d3d;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+#smilling-heart {
+  width: 100%;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fca3d4;
+  padding: 8px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
