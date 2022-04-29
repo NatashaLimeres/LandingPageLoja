@@ -279,3 +279,15 @@ footer p {
     transform: translateY(0);
   }
 }
+
+.button-scroll {
+  background-color: white;
+  border: 1px solid #fca3d4;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 7px;
+  color: #fca3d4;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
