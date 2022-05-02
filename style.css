@@ -35,7 +35,7 @@ main {
   margin-inline: auto;
 }
 
-.banner {
+#banner {
   padding-block: 10px;
   width: 100%;
   max-width: 1000px;
@@ -226,7 +226,7 @@ footer {
   font-size: 78px;
 }
 
-.social-fields {
+.social-fields-container {
   cursor: pointer;
   width: 100%;
   display: flex;
@@ -234,15 +234,7 @@ footer {
   gap: 100px;
 }
 
-#instagram {
-  color: #e09bd7;
-}
-
-#facebook {
-  color: #e09bd7;
-}
-
-#whats-app {
+.social-icons {
   color: #e09bd7;
 }
 
